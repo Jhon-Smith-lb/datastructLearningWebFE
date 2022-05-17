@@ -261,7 +261,7 @@
                         this.total = data.total
                     } else {
                         this.$message({
-                            message: response.msg,
+                            message: response.data.msg,
                             type: "warning"
                         });
                     }
